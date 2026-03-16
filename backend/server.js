@@ -3,7 +3,7 @@ const cors = require('cors');
 const sqlite3 = require('sqlite3').verbose();
 const path = require('path');
 
-const path = require('path');
+// const path = require('path');
 
 // Serve static files from frontend build in production
 if (process.env.NODE_ENV === 'production') {
